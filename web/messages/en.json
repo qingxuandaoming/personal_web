@@ -1,0 +1,49 @@
+{
+    "Metadata": {
+        "title": "Chen Guanheng | AI Algorithm Engineer",
+        "description": "Portfolio of Chen Guanheng - Artificial Intelligence Algorithm Engineer"
+    },
+    "Navbar": {
+        "title": "MyPortfolio",
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "blog": "Blog",
+        "contact": "Contact",
+        "toggleMenu": "Toggle menu"
+    },
+    "Hero": {
+        "greeting": "Hi, I'm",
+        "name": "Chen Guanheng",
+        "description": "Artificial Intelligence Algorithm Engineer. Passionate about AI, Python, and driving technical innovation to improve quality of life.",
+        "viewWork": "View My Work",
+        "contactMe": "Contact Me"
+    },
+    "Skills": {
+        "title": "Technical Skills",
+        "description": "The technologies and tools I use to bring ideas to life."
+    },
+    "FeaturedProjects": {
+        "title": "Featured Projects",
+        "description": "A selection of projects that showcase my passion for building web applications.",
+        "viewProject": "View Project",
+        "viewAll": "View All Projects",
+        "items": {
+            "pfc-moe-research": {
+                "title": "PFC-MoE Large Model Routing",
+                "description": "Prefrontal Cortex-inspired Mixture-of-Experts mechanism for Smart Agriculture. (Paper Under Review)"
+            },
+            "smart-agriculture": {
+                "title": "Smart Agriculture IoT System",
+                "description": "Integrated solution using Cloud Computing and Blockchain for agricultural support."
+            },
+            "teaching-website": {
+                "title": "Teaching Display Website",
+                "description": "Lead developer for Hebei University of Economics and Business teaching showcase platform."
+            }
+        }
+    },
+    "Footer": {
+        "rights": "MyPortfolio. All rights reserved."
+    }
+}

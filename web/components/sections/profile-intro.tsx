@@ -11,18 +11,21 @@ export function ProfileIntro() {
                 </h1>
                 <div className="space-y-4 text-muted-foreground md:text-lg leading-relaxed">
                     <p>
-                        I am a passionate developer with a strong focus on creating intuitive, dynamic, and performant user experiences.
-                        With a background in [Your Background], I bring a unique perspective to problem-solving and software architecture.
+                        I am a dedicated AI student and researcher, blending logical analysis with creative problem-solving.
+                        My journey is defined by "passion" (热爱) — striving to become an expert in Artificial Intelligence
+                        to drive technical innovation.
                     </p>
                     <p>
-                        My journey began when I [Your Story Start]. Since then, I&apos;ve worked on various projects ranging from
-                        small business websites to complex enterprise applications. I believe in clean code, continuous learning,
-                        and the power of open source.
+                        With a strong foundation in Python, Computer Vision, and Mathematical Modeling, I have led
+                        multiple research projects and won provincial awards in programming and modeling competitions.
+                        I am committed to using technology to improve quality of life.
                     </p>
                 </div>
                 <div className="pt-4">
-                    <Button size="lg" className="gap-2">
-                        <Download className="h-4 w-4" /> Download Resume
+                    <Button size="lg" className="gap-2" asChild>
+                        <Link href="/resource/陈冠衡.pdf" target="_blank" rel="noopener noreferrer">
+                            <Download className="h-4 w-4" /> Download Resume
+                        </Link>
                     </Button>
                 </div>
             </div>

@@ -1,0 +1,49 @@
+{
+    "Metadata": {
+        "title": "陈冠衡 | AI 算法工程师",
+        "description": "陈冠衡的个人作品集 - 人工智能算法工程师"
+    },
+    "Navbar": {
+        "title": "我的作品集",
+        "home": "首页",
+        "about": "关于",
+        "projects": "项目",
+        "blog": "博客",
+        "contact": "联系",
+        "toggleMenu": "切换菜单"
+    },
+    "Hero": {
+        "greeting": "你好，我是",
+        "name": "陈冠衡",
+        "description": "人工智能算法工程师。热衷于 AI、Python，致力于通过技术创新改善生活质量。",
+        "viewWork": "查看作品",
+        "contactMe": "联系我"
+    },
+    "Skills": {
+        "title": "技术技能",
+        "description": "我用于实现创意的技术和工具。"
+    },
+    "FeaturedProjects": {
+        "title": "精选项目",
+        "description": "展示我对构建 Web 应用热情的部分项目。",
+        "viewProject": "查看项目",
+        "viewAll": "查看所有项目",
+        "items": {
+            "pfc-moe-research": {
+                "title": "PFC-MoE 大模型路由",
+                "description": "受前额叶皮层启发的混合专家机制，用于智慧农业。（论文评审中）"
+            },
+            "smart-agriculture": {
+                "title": "智慧农业 IoT 系统",
+                "description": "利用云计算和区块链的农业支持集成解决方案。"
+            },
+            "teaching-website": {
+                "title": "教学展示网站",
+                "description": "河北经贸大学教学展示平台首席开发。"
+            }
+        }
+    },
+    "Footer": {
+        "rights": "MyPortfolio. 保留所有权利。"
+    }
+}

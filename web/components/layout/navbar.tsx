@@ -1,34 +1,34 @@
 "use client"
 
 import * as React from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+// import Link from "next/link" // Use i18n link
+import { Link, usePathname } from "@/i18n/routing"
 import { Menu, X } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 import { cn } from "@/lib/utils"
-// Use relative path since aliases might be flaky in some next.js setups without full restart, 
-// strictly speaking @/components/... should work if tsconfig.json is set, assuming it is.
-// Using relative path just in case for local component imports if needed, but @/ is standard.
 import { Button } from "@/components/ui/button"
 import ThemeToggle from "@/components/ui/theme-toggle"
-
-const navItems = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Projects", href: "/projects" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
-]
+import { LanguageSwitcher } from "@/components/language-switcher"
 
 export function Navbar() {
+  const t = useTranslations("Navbar")
   const pathname = usePathname()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
+
+  const navItems = [
+    { name: t("home"), href: "/" },
+    { name: t("about"), href: "/about" },
+    { name: t("projects"), href: "/projects" },
+    { name: t("blog"), href: "/blog" },
+    { name: t("contact"), href: "/contact" },
+  ]
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center space-x-2 font-bold text-xl">
-          <span>MyPortfolio</span>
+          <span>{t("title")}</span>
         </Link>
         <nav className="hidden md:flex gap-6 items-center">
           {navItems.map((item) => (
@@ -45,9 +45,11 @@ export function Navbar() {
               {item.name}
             </Link>
           ))}
+          <LanguageSwitcher />
           <ThemeToggle />
         </nav>
         <div className="flex items-center gap-2 md:hidden">
+          <LanguageSwitcher />
           <ThemeToggle />
           <Button
             variant="ghost"
@@ -59,7 +61,7 @@ export function Navbar() {
             ) : (
               <Menu className="h-6 w-6" />
             )}
-            <span className="sr-only">Toggle menu</span>
+            <span className="sr-only">{t("toggleMenu")}</span>
           </Button>
         </div>
       </div>

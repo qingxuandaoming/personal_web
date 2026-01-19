@@ -3,24 +3,24 @@ import { Badge } from "@/components/ui/badge"
 
 const history = [
     {
-        role: "Senior Frontend Engineer",
-        company: "Tech Company Inc.",
-        period: "2023 - Present",
-        description: "Leading the frontend team in migrating legacy systems to Next.js. Improved performance by 40%.",
+        role: "Intern",
+        company: "Shijiazhuang Yiling Pharmaceutical Co., Ltd.",
+        period: "Jan 2025 - Apr 2025",
+        description: "Participated in national projects (confidentiality maintained). Gained industry exposure.",
         type: "work"
     },
     {
-        role: "Full Stack Developer",
-        company: "StartUp Solutions",
-        period: "2021 - 2023",
-        description: "Built and maintained multiple client projects using React and Node.js. Implemented CI/CD pipelines.",
+        role: "Equipment Operations Intern",
+        company: "Huandun Central Health Center (Info Dept.)",
+        period: "Jun 2024 - Jul 2024",
+        description: "handled equipment operations and IT support tasks.",
         type: "work"
     },
     {
-        role: "Computer Science Degree",
-        company: "University of Technology",
-        period: "2017 - 2021",
-        description: "Specialized in Software Engineering. Graduated with honors.",
+        role: "Artificial Intelligence Major",
+        company: "Hebei University of Economics and Business",
+        period: "2023 - 2027 (Expected)",
+        description: "Ranked 1st in sophomore comprehensive measurement. Multiple First-Class Scholarships. Leader of Lab 313.",
         type: "education"
     }
 ]
